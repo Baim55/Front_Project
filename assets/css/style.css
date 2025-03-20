@@ -1,0 +1,101 @@
+.nav1{
+    background-color: #a23f25;
+}
+
+
+.phone a{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    z-index: 1;
+}
+
+.social_media{
+    display: inline-block;
+}
+
+.mr-4{
+    margin-right: 3.2rem;
+}
+
+.mr-2 {
+    margin-right: 1.4rem;
+}
+
+.register a{
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.social_media a{
+    color: white;
+    font-size: 11px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.col-9 ul{
+    gap: 40px;
+}
+
+.btn-cart {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn-cart:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    background: #a23f25;
+    color: white;
+    width: 18px;
+    height: 18px;
+    font-size: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+@media (max-width:768px){
+    .social_media{
+        width: 50%;
+    }
+    .register{
+        width: 50%;
+        justify-content: flex-end ;
+    }
+}
