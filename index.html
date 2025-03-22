@@ -10,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- header start -->
     <header>
         <div class="nav1">
             <div class="container">
@@ -51,27 +52,275 @@
                 </div>
             </div>
         </div>
-        <nav class="py-4 bg-dark nav">
-            <div class="container">
+        <nav class="py-4  nav">
+            <div class="container navv">
                 <div class="row align-items-center">
                     <div class="col-2">
                         <div class="logo">
                             <a href="" class="navbar-brand">Liquor <span>store</span></a>
                         </div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-10">
                         <ul class="text-uppercase d-flex justify-content-end mb-0">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Products</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li class="dropdown">
+                                <button class="dropbtn">Products<a href="#" class="btn-cart dropdown-toggle dropdown-toggle-split"></a></button>
+                                <div class="dropdown-content">
+                                    <a href="#">Products</a>
+                                    <a href="#">Single Products</a>
+                                    <a href="#">Cart</a>
+                                    <a href="#">Checkout</a>
+                                </div>
+                            </li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li class="bag">
+                                <i class="fa-solid fa-bag-shopping" style="color: #a23f25;"></i>
+                            </li>
+                            <p class="menu">MENU</p>
                         </ul>
+                        
                     </div>
-                    
                 </div>
             </div>
         </nav>
     </header>
+    <!-- header end -->
+
+    <!-- main start -->
+     <main>
+        <div class="hero-wrap">
+            <img src="assets/images/lebp051f.png" alt="" data-stellar-background>
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-center justify-content-center">
+                    <div class="col-md-9 ftco-animate d-flex align-items-center">
+                        <div class="text w-100 text-center">
+                          <h1 class="mb-4">Good <span>Drink</span> for Good <span>Moments</span>.</h1>
+                          <p>
+                            <a href="#" class="btn btn-primary py-2 px-4">Shop Now</a>
+                            <a href="#" class="btn btn-white btn-outline-white py-2 px-4">Read more</a>
+                          </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="online">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-4 d-flex">
+                        <div class="intro d-lg-flex w-100 ftco-animate ">
+                            <div class="icon">
+                                <span class="iconn"><i class="fa-solid fa-headset"></i></span>
+                            </div>
+                            <div class="textt">
+                                <h2>Online Support 24/7</h2>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex center">
+                        <div class="intro d-lg-flex w-100 ftco-animate">
+                            <div class="icon">
+                                <span class="iconn"><i class="fa-solid fa-money-bills"></i></span>
+                            </div>
+                            <div class="textt">
+                                <h2>Money Back Guarantee</h2>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex end">
+                        <div class="intro d-lg-flex w-100 ftco-animate uc">
+                            <div class="icon">
+                                <span class="iconn"><i class="fa-solid fa-truck-fast"></i></span>
+                            </div>
+                            <div class="textt">
+                                <h2>Free Shipping & Return</h2>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ftco-section">
+			<div class="container since">
+				<div class="row">
+					<div class="col-md-6 img-3 d-flex justify-content-center align-items-center img" style="background-image: url(assets/images/about.jpg.webp);"></div>
+					<div class="col-md-6 wrap-about pl-md-5 ftco-animate py-5">
+	                     <div class="heading-section">
+                            <span class="subheading">Since 1905</span>
+                            <h2 class="mb-4">Desire Meets A New Taste</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+                            <p class="year">
+                                <strong class="number" data-number="115">115</strong>
+                                <span>Years of Experience In Business</span>
+	                        </p>
+	                    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <section class="ftco-section ftco-no-pb mb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<div class="img" style="background-image: url(assets/images/kind-1.jpg.webp);"></div>
+							<h3>Brandy</h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<div class="img" style="background-image: url(assets/images/kind-2.jpg.webp);"></div>
+							<h3>Gin</h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<div class="img" style="background-image: url(assets/images/kind-3.jpg.webp);"></div>
+							<h3>Rum</h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<div class="img" style="background-image: url(assets/images/kind-4.jpg.webp);"></div>
+							<h3>Tequila</h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<div class="img" style="background-image: url(assets/images/kind-5.jpg.webp);"></div>
+							<h3>Vodka</h3>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 ">
+						<div class="sort w-100 text-center ftco-animate">
+							<div class="img" style="background-image: url(assets/images/kind-6.jpg.webp);"></div>
+							<h3>Whiskey</h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row justify-content-center pb-5">
+                    <div class="col-md-7 heading-section text-center ftco-animate fadeinup ftco-animated">
+                        <span class="subheading">Our Delightful offerings</span>
+                        <h2>Tastefully Yours</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="product w-100 text-center ftco-animate">
+                            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(assets/images/prod-1.jpg.webp);">
+                                <div class="desc">
+                                    <p class="meta-prod d-flex">
+                                        <a href="" class="d-flex align-items-center justify-content-center">
+                                            <span class="flaction-shopping-bag"></span>
+                                        </a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text text-center">
+                                <span>Sale</span>
+                                <span>Brandy</span>
+                                <h2>Bacardi 151</h2>
+                                <p>
+                                    <span>$69.00</span>
+                                    <span>$49.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="product w-100 text-center ftco-animate">
+                            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(assets/images/prod-1.jpg.webp);">
+                                <div class="desc">
+                                    <p class="meta-prod d-flex">
+                                        <a href="" class="d-flex align-items-center justify-content-center">
+                                            <span class="flaction-shopping-bag"></span>
+                                        </a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text text-center">
+                                <span>Sale</span>
+                                <span>Brandy</span>
+                                <h2>Bacardi 151</h2>
+                                <p>
+                                    <span>$69.00</span>
+                                    <span>$49.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="product w-100 text-center ftco-animate">
+                            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(assets/images/prod-1.jpg.webp);">
+                                <div class="desc">
+                                    <p class="meta-prod d-flex">
+                                        <a href="" class="d-flex align-items-center justify-content-center">
+                                            <span class="flaction-shopping-bag"></span>
+                                        </a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text text-center">
+                                <span>Sale</span>
+                                <span>Brandy</span>
+                                <h2>Bacardi 151</h2>
+                                <p>
+                                    <span>$69.00</span>
+                                    <span>$49.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 d-flex">
+                        <div class="product w-100 text-center ftco-animate">
+                            <div class="img d-flex align-items-center justify-content-center" style="background-image: url(assets/images/prod-1.jpg.webp);">
+                                <div class="desc">
+                                    <p class="meta-prod d-flex">
+                                        <a href="" class="d-flex align-items-center justify-content-center">
+                                            <span class="flaction-shopping-bag"></span>
+                                        </a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                        <a href="" class="d-flex align-items-center justify-content-center"></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text text-center">
+                                <span>Sale</span>
+                                <span>Brandy</span>
+                                <h2>Bacardi 151</h2>
+                                <p>
+                                    <span>$69.00</span>
+                                    <span>$49.00</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     </main>
 </body>
 </html>
