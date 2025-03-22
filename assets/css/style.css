@@ -131,7 +131,7 @@
     height: 100vh;
 }
 
-.overlay {
+.hero-wrap .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -271,8 +271,13 @@
     height: 510px;
 }
 
+.wrap-about .heading-section{
+    margin-top: -50px;
+}
+
 .subheading{
     display: inline-block;
+    margin-top: 70px;
     margin-bottom: 0;
     color: #b7472a;
     font-size: 16px;
@@ -351,16 +356,16 @@
 
 /* brandy end */
 
-/* taste start */
+/* product start */
 
 .pb-5{
     margin-bottom: 30px;
 }
 
-.products{
-    display: flex;
-}
 
+.product{
+    position: relative;
+}
 .product .img{
     width: 255px;
     height: 350px;
@@ -370,6 +375,180 @@
     background-position: center center;
 }
 
+.sale{
+    position: absolute;
+    top: 0;
+    left: 3px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #fff;
+    background: #b7472a;
+}
+.seller{
+    position: absolute;
+    top: 0;
+    left: 3px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #fff;
+    background: #fe9801;
+}
+.new{
+    position: absolute;
+    top: 0;
+    left: 3px;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #fff;
+    background: #01d28e;
+}
+
+.text .category{
+    font-style: italic;
+    color: #b7472a;
+}
+
+.product .text{
+    padding-bottom: 90px;
+    position: relative;
+    padding: 20px;
+}
+
+.product .text h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+}
+
+.price{
+    font-style: italic;
+}
+
+.price-sale{
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.product{
+    padding-bottom: 70px;
+}
+
+.product .img {
+    position: relative;
+    transition: filter 0.6s;
+}
+
+.product:hover .img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.meta-prod {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.product:hover .meta-prod {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.6s;
+}
+
+.meta-prod a {
+    margin: 0 3px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    color: white;
+}
+
+.buton{
+    margin-bottom: 100px;
+}
+
+/* product end */
+
+/* clients start */
+
+.testimony-section{
+    background-attachment: fixed;
+}
+
+.owl-item{
+    width: 350px;
+    margin-right: 30px;
+}
+
+.testimony-wrap{
+    display: block;
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
+.testimony-wrap .icon {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #b7472a;
+}
+.testimony-wrap .icon span {
+    color: #fff;
+}
+.testimony-wrap .text p{
+    font-style: italic;
+}
+.testimony-wrap .user-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.text .mb-4{
+    margin-bottom: 15px;
+}
+
+.pl-3{
+    padding-left: 10px;
+}
+
+.testimony-wrap .name {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #fff;
+    font-style: normal !important;
+}
+
+.testimony-wrap .position {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* clients end */
 
 
 /* main end */
@@ -385,6 +564,16 @@
 @media (max-width:1200px){
     .container{
         max-width: 950px;
+    }
+
+    .product .img{
+        width: 200px;
+    }
+}
+@media (max-width:768px){
+
+    .product .img{
+        width: 100%;
     }
 }
 
