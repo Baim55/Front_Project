@@ -486,7 +486,14 @@
 /* clients start */
 
 .testimony-section{
+    position: relative;
+    background-size: cover;
     background-attachment: fixed;
+}
+
+.testimony-section .row .col-lg-4{
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 .owl-item{
@@ -494,13 +501,21 @@
     margin-right: 30px;
 }
 
+.testimony-section .text-center{
+    position: relative;
+}
+
+.testimony-section .img{
+    position: relative;
+}
+
 .testimony-wrap{
     display: block;
     position: relative;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 0 20px;
     border-radius: 4px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.7);
 }
 .testimony-wrap .icon {
     position: absolute;
@@ -546,11 +561,76 @@
     color: rgb(255, 255, 255);
 }
 
-
+.testimony-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    background: #000000;
+    opacity: .7;
+}
 
 /* clients end */
 
+/* blog start */
 
+
+.block {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: -1;
+}
+
+.blog-entry .img, .blog-entry .text {
+    width: 50%;
+}
+
+.blog-entry {
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.text .heading a:hover{
+    color: #a23f25;
+}
+
+.blog-entry .btn-custom {
+    color: #b7472a;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.blog-entry .text{
+    padding: 33px !important;
+    background-color: #f5f4f0 ;
+}
+
+.blog-entry .text .heading {
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.recent{
+    margin-bottom: 90px;
+}
+
+.blog-entry .text .heading a {
+    color: #000000;
+}
+
+.blog-entry .meta p span {
+    padding-right: 10px;
+}
+
+/* blog end */
 /* main end */
 
 
@@ -636,6 +716,10 @@
 @media (max-width: 768px) {
     .container {
         max-width: 720px;
+    }
+
+    .blogg{
+        margin-left: 20px;
     }
 }
 
