@@ -141,7 +141,7 @@
 .slider-text {
     position: absolute;
     top: 60%;
-    right: 40%;
+    right: 0%;
 }
 .hero-wrap.hero-wrap-2 .slider-text .breadd{
     font-size: 14px;
@@ -475,12 +475,34 @@ label{
     .container {
         max-width: 540px;
     }
+    .slider-text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
 }
 
 
 @media (max-width:1200px){
     .container{
         max-width: 950px;
+    }
+    .slider-text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (min-width:1200px){
+    
+    .slider-text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
     }
 }
 
@@ -522,8 +544,22 @@ label{
         justify-content: flex-end ;
     }
     .slider-text{
-        right: 20%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
     }
 }
 
 
+@media (max-width: 576px) {
+    .slider-text{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        top: 50%;
+        right: 10%;
+    }
+   
+}
