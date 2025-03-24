@@ -161,11 +161,11 @@
     font-weight: 400;
 }
 
-.mr-2 {
+.right {
     margin-right: 10px !important;
 }
 
-.mr-2 a:hover{
+.mright a:hover{
     color: #a23f25;
     transition: all 0.3s;
 }

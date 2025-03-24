@@ -1,0 +1,62 @@
+body{
+    height: 700px;
+    display: flex;
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lgn{
+    background: #f5f4f0;
+    padding: 60px;
+    width: 500px;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #dddddd;
+}
+
+label{
+    text-align: left;
+    color: #b7472a;
+}
+
+.forgot{
+    text-decoration: none;
+    text-align: left;
+    color: #b7472a;
+}
+
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #b7472a;
+    font-size: 30px;
+}
+
+.login-box{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #b7472a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+p{
+    text-align: center;
+    color: black;
+}
+
+p a{ 
+    text-decoration: none;
+    color: #b7472a;
+}
